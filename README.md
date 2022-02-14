@@ -52,4 +52,5 @@ browser.
 
 ## Limitations
 
-- This application is configured to check server URLs every 5 seconds
+- This application is configured to check server URLs every 5 seconds to prevent
+rate-limiting.
