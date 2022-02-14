@@ -37,8 +37,9 @@ using a local Kubernetes development server (ex. minikube).
 1. If using minikube, execute `eval $(minikube docker-env)` to enable consuming
 images from your local Docker daemon. Otherwise skip this step.
 
-2. Navigate to `helm` directory and run `helm install ./check-server`. NOTE: If
-you pushed your image to a remote repository, append:
+2. Navigate to `helm` directory and run `helm install <name> ./check-server`.
+Replace `<name>` with your release name. NOTE: If you pushed your image to a
+remote repository, append:
 
         --set image.pullPolicy=IfNotPresent --set image.repository=<your external image>
 
