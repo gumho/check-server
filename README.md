@@ -19,20 +19,20 @@ reply from the URL. Unit is in milliseconds.
 This guide details installation of this application via Kubernetes Helm Chart
 using a local Kubernetes development server (ex. minikube).
 
-## Pre-requisites
+### Pre-requisites
 
 - Kubernetes application
 - helm CLI
 
-## Installation Steps
+### Installation Steps
 
-### Build the Docker Image
+#### Build the Docker Image
 
 1. In this directory, run `docker build -t server-check:0.0.1 .`
 
 2. Optionally, push this image to a repository. 
 
-### Deploy the Chart
+#### Deploy the Chart
 
 1. If using minikube, execute `eval $(minikube docker-env)` to enable consuming
 images from your local Docker daemon. Otherwise skip this step.
