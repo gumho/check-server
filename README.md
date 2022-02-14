@@ -44,10 +44,11 @@ remote repository, append:
         --set image.pullPolicy=IfNotPresent --set image.repository=<your external image>
 
 3. The previous step will output the message "Get the application URL by
-running these commands." Run the commands to create a tunnel from your local
-host to the pod deployment.
+running these commands." followed by a few commands. Run the commands in your
+shell to create a tunnel from your local host to the pod deployment.
 
-4. Access the Prometheus metrics by visiting http://127.0.0.1:8080
+4. Access the Prometheus metrics by visiting http://127.0.0.1:8080 in your
+browser.
 
 ## Limitations
 
