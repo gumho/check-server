@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import time
-import requests
 
 import prometheus_client as prometheus
+import requests
 
 LISTEN_PORT = 8000
 
